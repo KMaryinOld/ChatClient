@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sasisa.chat.sasisachat.dialog.NewMessageDialogFragment"
+    android:focusable="false"
+    android:contextClickable="false"
+    android:clickable="false"
+    android:padding="20dp">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Отправить"
+        android:id="@+id/fragment_new_message_send_message_button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="sendMessage"
+        android:background="@drawable/sasisa_button" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Закрыть"
+        android:id="@+id/fragment_new_message_close_fragment"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/sasisa_button" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/fragment_new_message_text"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/fragment_new_message_send_message_button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/fragment_new_message_close_fragment"
+        android:layout_alignEnd="@+id/fragment_new_message_close_fragment"
+        android:gravity="top|left"
+        android:background="#ffffff"
+        android:layout_marginBottom="20dp" />
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/send_dialog_message_progressbar"
+        android:layout_below="@+id/fragment_new_message_text"
+        android:layout_centerHorizontal="true"
+        android:indeterminate="true"
+        android:visibility="gone" />
+</RelativeLayout>

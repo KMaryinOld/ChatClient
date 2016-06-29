@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/clickuseractions">
+        <item android:id="@+id/private_message"
+            android:title="Личное сообщение"
+            />
+        <item android:id="@+id/view_user_data"
+            android:title="Просмотреть анкету пользователя" />
+    </group>
+</menu>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sasisa.chat.sasisachat">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/BlueAppTheme"
+        android:name="android.support.multidex.MultiDexApplication">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".GuestRoomActivity"
+            android:label="@string/title_activity_guest_room" />
+        <activity
+            android:name=".RoomActivity"
+            android:label="@string/title_activity_room"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".TestActivity"
+            android:label="@string/title_activity_test" />
+        <activity
+            android:name=".UserInfoActivity"
+            android:label="@string/title_activity_user_info" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".NewsActivity"
+            android:label="@string/title_activity_news" />
+        <activity
+            android:name=".DialogListActivity"
+            android:label="@string/title_activity_dialog_list" />
+        <activity
+            android:name=".ViewDialogActivity"
+            android:label="@string/title_activity_view_dialog" />
+        <activity
+            android:name=".FullscreenLoginActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_fullscreen_login"
+            android:theme="@style/FullscreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings" />
+        <activity
+            android:name=".SasisaAppCompatActivity"
+            android:label="@string/title_activity_sasisa_app_compat" />
+        <activity
+            android:name=".LicensesActivity"
+            android:label="@string/title_activity_licenses" />
+        <activity
+            android:name=".GhostRoom.GhostRoomActivity"
+            android:label="@string/title_activity_ghost_room"
+            android:theme="@style/BlueAppTheme.NoActionBar" />
+    </application>
+
+</manifest>

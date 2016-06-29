@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sasisa.chat.sasisachat.room.MessagesFilterFragment"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:showDividers="middle|beginning|end"
+        android:measureWithLargestChild="false"
+        android:baselineAligned="true">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Выключен"
+            android:id="@+id/room_filter_off_radiobutton"
+            android:checked="false"
+            android:textSize="18sp"
+            android:layout_marginBottom="10dp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Только приватные"
+            android:id="@+id/room_filter_private_radiobutton"
+            android:checked="false"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Мои или Адресованные на мой ник"
+            android:id="@+id/room_filter_from_me_radiobutton"
+            android:checked="false"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp" />
+
+    </RadioGroup>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/change_filter_progressbar"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:indeterminate="true"
+        android:visibility="gone" />
+
+</RelativeLayout>

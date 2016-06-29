@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.sasisa.chat.sasisachat.RoomActivity">
+    <item android:id="@+id/room_menu_action_show_users" android:title="@string/room_menu_show_users"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/room_menu_action_change_topic" android:title="@string/room_menu_change_topic"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/room_menu_action_call_moder" android:title="@string/room_menu_call_moder"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/room_menu_action_messages_filter" android:title="@string/room_menu_messages_filter"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/room_menu_action_back" android:title="@string/room_menu_back"
+        android:orderInCategory="100" app:showAsAction="never" />
+</menu>

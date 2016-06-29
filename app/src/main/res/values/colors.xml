@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="username_chat_color">#77DD77</color>
+
+    <color name="titlebackgroundcolor_LightGreen">#84DE00</color>
+    <color name="titletextcolor_LightGreen">#A7051B</color>
+
+    <color name="border_color_LightGreen">#84DE00</color>
+
+    <color name="header_color_LightGreen">#f6f6f6</color>
+    <color name="header_border_shadow_LightGreen">#ffffff</color>
+
+    <color name="section_color_LightGreen">#f0f0f0</color>
+
+    <color name="chatroom_color_LightGreen">#c8ffef32</color>
+
+    <color name="black_overlay_LightGreen">#66000000</color>
+
+    <color name="guestroom_text_color_LightGreen">#000000</color>
+    <color name="guestroom_background_color_LightGreen">#DFFFB0</color>
+    <color name="guestroom_separator_color_LightGreen">#84DE00</color>
+    <color name="guestroom_item_darkgreen_LightGreen">#AEEF4D</color>
+    <color name="guestroom_item_lightgreen_LightGreen">#C6FF72</color>
+
+    <color name="blue">#0000FF</color>
+    <color name="green">#00FF00</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="red">#FF0000</color>
+
+    <color name="titlebackgroundcolor_LightBlue">#6495ED</color>
+    <color name="titletextcolor_LightBlue">#A7051B</color>
+
+    <color name="border_color_LightBlue">#4f4759</color>
+    <color name="chatroom_color_LightBlue">#c8e4f9</color>
+
+    <color name="guestroom_background_color_LightBlue">#c8e4f9</color>
+    <color name="guestroom_separator_color_LightBlue">#8097d1</color>
+    <color name="guestroom_item_darkblue_LightBlue">#6699FF</color>
+    <color name="guestroom_item_lightblue_LightBlue">#7FC7FF</color>
+</resources>
